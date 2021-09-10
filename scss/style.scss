@@ -1,0 +1,83 @@
+$bg-body:#333;
+$font-color:#fff;
+$icon-font-size:30px;
+$primary-color: green;
+
+
+nav{
+  background: #333;
+  opacity: 0.7;
+}
+#home-section{
+  background: url('../img/home.jpg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+  color: $font-color;
+
+
+  .dark-overlay{
+    background: $bg-body;
+    opacity: 0.7;
+    min-height: 800px;
+  }
+
+  .fas{
+    font-size: $icon-font-size;
+    background: white;
+    color: $primary-color;
+    padding: 5px;
+  }
+  .home-inner{
+    padding-top: 160px;
+    padding-bottom: 70px;
+  }
+}
+
+#explore-main-section{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  .fas{
+    background: $bg-body;
+    color: #fff;
+    font-size: $icon-font-size;
+    padding: 5px;
+  }
+}
+
+#creat-section{
+  h2{
+    font-size: 45px;
+  }
+}
+
+#creat-main-section{
+  color: $font-color;
+
+  .fas{
+    font-size: $icon-font-size;
+    background-color: darkblue;
+    padding: 5px;
+    color: $font-color;
+  }
+}
+
+#share-main-section{
+  .fas{
+    background-color: darkblue;
+    color: $font-color;
+    font-size: $icon-font-size;
+    padding: 5;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+  #home-section h1{
+    font-size: 36px;
+  }
+}

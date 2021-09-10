@@ -1,0 +1,52 @@
+nav {
+  background: #333;
+  opacity: 0.7; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+  color: #fff; }
+  #home-section .dark-overlay {
+    background: #333;
+    opacity: 0.7;
+    min-height: 800px; }
+  #home-section .fas {
+    font-size: 30px;
+    background: white;
+    color: green;
+    padding: 5px; }
+  #home-section .home-inner {
+    padding-top: 160px;
+    padding-bottom: 70px; }
+
+#explore-main-section {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+  #explore-main-section .fas {
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 5px; }
+
+#creat-section h2 {
+  font-size: 45px; }
+
+#creat-main-section {
+  color: #fff; }
+  #creat-main-section .fas {
+    font-size: 30px;
+    background-color: darkblue;
+    padding: 5px;
+    color: #fff; }
+
+#share-main-section .fas {
+  background-color: darkblue;
+  color: #fff;
+  font-size: 30px;
+  padding: 5; }
+
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }
